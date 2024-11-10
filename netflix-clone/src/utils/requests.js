@@ -1,11 +1,3 @@
-// (see how we generate this url to get the json file)
-// https://api.themoviedb.org/3/discover/tv?api_key=63a044664a99bfc4a16a115325339516&with_networks=213
-//(This will fetch NetflixOriginals movie)
-//where can we get the base URL to open and see a single part of the josnon file ?
-//https://api.themoviedb.org/3/movie/550?api_key=63a044664a99bfc4a16a115325339516
-//Read how we can extract every poster of the movies
-
-// const API_KEY = process.env.REACT_APP_API_KEY;
 const API_KEY = process.env.REACT_APP_API_KEY;
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
